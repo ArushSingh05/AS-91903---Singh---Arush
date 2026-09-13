@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment | Gabru Groomers</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+                <div class="logo">
+                    <h2>Gabru Groomers</h2>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services_prices.html">Services & Prices</a></li>
+                    <li><a href="barbers.html">Barbers</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="faq_policies.html">FAQ</a></li>
+                    <li><a href="booking.html" class="book-btn">Book Now</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+    </header>
+
+    <main>
+        <section class="booking-hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-text">
+                <p class="hero-subtitle">
+                    Book Your Appointment
+                </p>
+
+                <h1>
+                    Fresh Look Starts Here
+                </h1>
+
+                <p class="hero-description">
+                    Choose your service, select your preferred barber and reserve a time that suits you.
+                </p>
+
+                <a href="#booking-form" class="btn-primary">
+                    Book Below
+                </a>
+            </div>
+        </section>
+
+        <section class="booking-intro">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>
+                        Booking Made Easy
+                    </h2>
+
+                    <p>
+                        Our online booking system makes it quick and simple to reserve your next haircut or grooming service.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-benefits">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>
+                        Why Book Online?
+                    </h2>
+                </div>
+
+                <div class="why-grid">
+                    <article class="why-card">
+                        <h3>Fast & Convenient</h3>
+
+                        <p>
+                            Reserve your appointment in just a few clicks.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <h3>Choose Your Barber</h3>
+
+                        <p>
+                            Pick your favourite barber or let us choose one for you.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <h3>Flexible Appointments</h3>
+
+                        <p>
+                            Select the day and time that fits your schedule.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="booking-form-section" id="booking-form">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Book Your Appointment</h2>
+
+                    <p>
+                        Complete the form below and we'll get you looking your best.
+                    </p>
+                </div>
+
+                <form class="booking-form">
+                    <!-- Service -->
+                    <div class="form-group">
+                        <label for="service">Choose a Service</label>
+
+                        <select id="service" name="service" required>
+                            <option value="">Select a Service</option>
+
+                            <option>Classic Haircut</option>
+                            <option>Skin Fade</option>
+                            <option>Buzz Cut</option>
+                            <option>Kids Haircut</option>
+                            <option>Beard Trim</option>
+                            <option>Hair Colour</option>
+                            <option>Premium Package</option>
+                        </select>
+                    </div>
+
+                    <!-- Barber -->
+                    <div class="form-group">
+                        <label for="barber">Choose Your Barber</label>
+
+                        <select id="barber" name="barber">
+                            <option>No Preference</option>
+                            <option>Joseph</option>
+                            <option>Senior Barber</option>
+                            <option>Barber</option>
+                        </select>
+                    </div>
+
+                    <!-- Date & Time -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Preferred Date</label>
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="time">Preferred Time</label>
+
+                            <input
+                                type="time"
+                                id="time"
+                                name="time"
+                                required>
+                        </div>
+                    </div>
+
+                    <!-- Personal Details -->
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="John Smith"
+                                required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="021 123 4567"
+                                required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="john@example.com">
+                    </div>
+
+                    <!-- Notes -->
+                    <div class="form-group">
+                        <label for="notes">Special Requests</label>
+
+                        <textarea
+                            id="notes"
+                            name="notes"
+                            rows="5"
+                            placeholder="Tell us about your preferred style or any additional information..."></textarea>
+                    </div>
+
+                    <div class="booking-summary">
+                        <h3>Your Booking Summary</h3>
+
+                        <ul>
+                            <li><strong>Service:</strong> <span id="summary-service">Not Selected</span></li>
+                            <li><strong>Barber:</strong> <span id="summary-barber">No Preference</span></li>
+                            <li><strong>Date:</strong> <span id="summary-date">--</span></li>
+                            <li><strong>Time:</strong> <span id="summary-time">--</span></li>
+                        </ul>
+                    </div>
+                            
+                    <div class="submit-area">
+                        <button type="submit" class="btn-primary">
+                            Book Appointment
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="visit-info">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Before Your Visit</h2>
+
+                    <p>
+                        A few helpful tips to make your appointment run smoothly.
+                    </p>
+                </div>
+
+                <div class="why-grid">
+                    <article class="why-card">
+                        <h3>Arrive Early</h3>
+
+                        <p>
+                            Please arrive 5–10 minutes before your appointment.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <h3>Need To Cancel?</h3>
+
+                        <p>
+                            Let us know as early as possible if you need to reschedule.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <h3>Bring Inspiration</h3>
+
+                        <p>
+                            Feel free to bring reference photos so we can achieve your desired look.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <h2>Gabru Groomers</h2>
+
+                <p>
+                Premium Haircuts & Beard Grooming
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="services_prices.html">Services & Prices</a>
+                <a href="barbers.html">Barbers</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="faq_policies.html">FAQ</a>
+                <a href="booking.html">Book Now</a>
+            </div>
+
+            <div class="socials">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+            </div>
+
+        </div>
+
+        <hr>
+        <p class="copyright">
+        © 2026 Gabru Groomers. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -573,9 +573,7 @@ BARBER PAGE
 ============================== */
 .barbers-hero{
 
-    margin-top:80px;
     height:100vh;
-
     background:
     linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
     url("../images/services-banner.jpg") center center/cover;
@@ -667,9 +665,7 @@ GALLERY PREVIEW
 
 .gallery-hero{
 
-    margin-top:80px;
     height:100vh;
-
     background:
     linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
     url("../images/services-banner.jpg") center center/cover;
@@ -871,9 +867,7 @@ footer hr{
 ====================================== */
 .services-hero{
 
-    margin-top:80px;
     height:100vh;
-
     background:
     linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
     url("../images/services-banner.jpg") center center/cover;
@@ -1120,9 +1114,7 @@ SERVICE CARDS
 ============================== */
 .faq-hero{
 
-    margin-top:80px;
     height:100vh;
-
     background:
     linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
     url("../images/services-banner.jpg") center center/cover;
@@ -1180,9 +1172,7 @@ SERVICE CARDS
 ============================== */
 .booking-hero{
 
-    margin-top:80px;
     height:100vh;
-
     background:
     linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
     url("../images/services-banner.jpg") center center/cover;
